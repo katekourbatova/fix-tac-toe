@@ -15,10 +15,10 @@ def choose_characters
   # the computer a character of your choice.
 
   @computer = case @player
-              when "" then ""
-              when "" then ""
+              when "X" then "O"
+              when "O" then "X"
               else
-                ""
+                "X"
               end
 end
 

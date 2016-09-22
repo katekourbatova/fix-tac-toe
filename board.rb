@@ -39,7 +39,7 @@ class Board
     # the board starts with the right amount of empty
     # spaces.
 
-    @board = Array.new() { Cell.new }
+    @board = Array.new(9) { Cell.new }
   end
 
   def winner?

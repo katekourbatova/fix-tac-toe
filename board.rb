@@ -25,6 +25,13 @@ class Board
 
     "top left" => 0,
     "top middle" => 1,
+    "top right" => 2,
+    "middle left" => 3,
+    "center" => 4,
+    "middle right" => 5,
+    "bottom left" => 6,
+    "bottom middle" => 7,
+    "bottom right" => 8
   }
 
   def initialize
